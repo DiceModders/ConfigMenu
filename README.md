@@ -1,5 +1,7 @@
 # ConfigMenu
 
+![UiKit Icon](https://raw.githubusercontent.com/DiceModders/ConfigMenu/main/icon.png)
+
 An in-game editor for BepInEx configuration files in **Dice Kingdoms**. It uses
 [DiceModders UiKit](https://github.com/DiceModders/UiKit) for the window and widgets.
 
