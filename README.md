@@ -47,12 +47,8 @@ String and advanced settings still have to be edited in `BepInEx/config/*.cfg` w
 
 ## Build
 
-Build UiKit first so the reference exists, then ConfigMenu:
+Copy UiKit dll into root directory of project:
 
 ```bash
-dotnet build ../UiKit/UiKit.csproj -c Debug --nologo
 dotnet build ConfigMenu.csproj -c Debug --nologo
-./copy.sh
 ```
-
-`copy.sh` copies `DiceModders.ConfigMenu.dll` into the game's `BepInEx/plugins` folder.

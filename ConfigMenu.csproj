@@ -27,7 +27,7 @@
 
 	<ItemGroup>
 		<Reference Include="DiceModders.UiKit">
-			<HintPath>../UiKit/bin/$(Configuration)/net6.0/DiceModders.UiKit.dll</HintPath>
+			<HintPath>DiceModders.UiKit.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 	</ItemGroup>
